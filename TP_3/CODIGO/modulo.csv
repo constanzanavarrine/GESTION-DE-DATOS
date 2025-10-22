@@ -1,0 +1,31 @@
+ID_MODULO,ID_PROGRAMA,NOMBRE,ORDEN,DIFICULTAD
+1,1,Curso de Diseño UX/UI,1,BAJA
+2,2,Curso de Business Analytics,2,MEDIA
+3,3,Curso de Data Science I: Fundamentos para la Ciencia de Datos,2,MEDIA
+4,4,Curso de Diseño UX/UI,6,ALTA
+5,5,Curso de Fundamentos del Marketing digital,1,BAJA
+6,6,Curso de Fundamentos del Marketing digital,4,MEDIA
+7,7,Curso de Diseño UX/UI,1,BAJA
+8,8,Curso de Diseño UX/UI,2,MEDIA
+9,9,Curso de Data Science I: Fundamentos para la Ciencia de Datos,5,ALTA
+10,10,Curso de Fundamentos del Marketing digital,1,BAJA
+11,11,Curso de Fundamentos del Marketing digital,2,MEDIA
+12,12,Curso de Fundamentos del Marketing digital,6,ALTA
+13,13,Curso de Fundamentos del Marketing digital,4,MEDIA
+14,14,Curso de Fundamentos del Marketing digital,2,MEDIA
+15,15,Curso de Fundamentos del Marketing digital,4,MEDIA
+16,16,Curso de Fundamentos del Marketing digital,3,MEDIA
+17,17,Curso de Diseño UX/UI,2,MEDIA
+18,18,Curso de Fundamentos del Marketing digital,6,ALTA
+19,19,Curso de Fundamentos del Marketing digital,4,MEDIA
+20,20,Curso de Business Analytics,3,MEDIA
+21,21,Curso de Data Science I: Fundamentos para la Ciencia de Datos,2,MEDIA
+22,22,Curso de Business Analytics,3,MEDIA
+23,23,Curso de Business Analytics,1,BAJA
+24,24,Curso de Data Science I: Fundamentos para la Ciencia de Datos,1,BAJA
+25,25,Curso de Data Science I: Fundamentos para la Ciencia de Datos,4,MEDIA
+26,26,Curso de Data Science I: Fundamentos para la Ciencia de Datos,1,BAJA
+27,27,Curso de Business Analytics,3,MEDIA
+28,28,Curso de Business Analytics,5,ALTA
+29,29,Curso de Business Analytics,3,MEDIA
+30,30,Curso de Business Analytics,1,BAJA

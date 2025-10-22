@@ -1,0 +1,5 @@
+ID_METODO_PAGO,NOMBRE,FECHA_ALTA,FECHA_BAJA
+1,Transferencia,2023-03-03 0:00:01,
+2,Tarjeta debito,2023-03-03 0:00:06,
+3,Tarjeta credito,2023-03-03 0:00:11,
+4,Efectivo,2023-03-03 0:00:15,

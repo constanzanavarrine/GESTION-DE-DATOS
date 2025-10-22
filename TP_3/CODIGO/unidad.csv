@@ -1,0 +1,31 @@
+ID_UNIDAD,ID_PROGRAMA,ID_MODULO,NOMBRE,ORDEN,DIFICULTAD
+1,1,1,Introducción al diseño,1,BAJA
+2,2,2,"Modelos de Negocio, KPIs vs Métricas",2,MEDIA
+3,3,3,NumPy y Pandas,3,MEDIA
+4,4,4,Avanzando en UX/UI: De la Teoría a la Práctica,4,MEDIA
+5,5,5,"Marketing de contenidos para X (Twitter), LinkedIn y WhatsApp Business",5,ALTA
+6,6,6,Cómo crear y gestionar anuncios en redes sociales (Meta Ads),6,ALTA
+7,7,7,Prototipar: Técnicas de diseño,1,BAJA
+8,8,8,Diseño UX/UI Atomic Design en UX/UI,2,MEDIA
+9,9,9,Fundamentos de IA y Machine Learning,3,MEDIA
+10,10,10,Estrategias efectivas de Email Marketing,4,MEDIA
+11,11,11,Cómo crear un Plan de Marketing digital desde cero,1,BAJA
+12,12,12,El rol clave del Community Manager profesional,2,MEDIA
+13,13,13,Estrategia de contenidos para Facebook e Instagram,3,MEDIA
+14,14,14,"TikTok, Threads e Instagram Reels: Contenido que atrapa",4,MEDIA
+15,15,15,"Marketing de contenidos para X (Twitter), LinkedIn y WhatsApp Business",5,ALTA
+16,16,16,Cómo crear y gestionar anuncios en redes sociales (Meta Ads),6,ALTA
+17,17,17,Avanzando en UX/UI: De la Teoría a la Práctica,4,MEDIA
+18,18,18,"Anuncios en Google Ads: Búsqueda, Display y Performance Max",2,MEDIA
+19,19,19,Remarketing y Analítica con Google Analytics,3,MEDIA
+20,20,20,"Modelos de Negocio, KPIs vs Métricas",2,MEDIA
+21,21,21,La Transformación Digital en la Industria 4.0,4,MEDIA
+22,22,22,Análisis Predictivo y Gráficos,4,MEDIA
+23,23,23,Herramientas de Business Analytics,5,ALTA
+24,24,24,Manipulación de Datos: Pandas,4,MEDIA
+25,25,25,Visualizaciones Avanzadas en Data Science,5,ALTA
+26,26,26,Estadística y Preprocesamiento,6,ALTA
+27,27,27,IA aplicada en Business Analytics,3,MEDIA
+28,28,28,Introducción a Business Analytics,1,BAJA
+29,29,29,"Modelos de Negocio, KPIs vs Métricas",2,MEDIA
+30,30,30,BI y Análisis Descriptivo,3,MEDIA

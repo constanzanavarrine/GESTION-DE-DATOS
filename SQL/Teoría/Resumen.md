@@ -241,6 +241,19 @@ Por ejemplo si mica es estudiante en el union no se repetiria pero en el union a
 
 si hay un campo que no es funcion de agregacion siempre debe ir group by 
 
+
+### CUANDO USAR UNION Y CUANDO USAR JOIN 
+| Objetivo                                                                 | Usá                 |
+| ------------------------------------------------------------------------ | ------------------- |
+| Agregar columnas (traer datos relacionados)                              | **JOIN**            |
+| Apilar filas (traer conjuntos similares de distintas tablas o consultas) | **UNION**           |
+| Ver todos los valores (incluso duplicados)                               | **UNION ALL**       |
+| Ver solo valores únicos                                                  | **UNION** (sin ALL) |
+
+
+
+
+
 En los procedures no nos interesan cosas historicas
 
 ## PROCEDURES Y TRIGGERS

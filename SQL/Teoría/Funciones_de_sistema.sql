@@ -4,7 +4,7 @@ WHEN type = 'business' THEN 'Enviar a compras'
 WHEN type = 'mod_cook' THEN 'Enviar a sotano'
 WHEN type = 'popular_comp' THEN 'Enviar a ventas'
 ELSE 'No enviar'
-END
+END / o aca puedo poner tambien END AS 'NombreColumna'
 FROM titles
 
 

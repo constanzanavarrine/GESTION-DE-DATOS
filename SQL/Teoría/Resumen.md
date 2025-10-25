@@ -1,5 +1,30 @@
 # 📘 Resumen SQL — Gestión de Datos
 
+## PLANTILLA DE SINTAXIS (orden de escritura)
+
+SELECT [DISTINCT] 
+       -- columnas o expresiones a mostrar
+       -- funciones de agregación si corresponde (SUM, COUNT, AVG, MIN, MAX)
+       -- funciones de texto o fecha (LEFT, DATENAME, YEAR, etc.)
+       -- columnas calculadas (CASE ... END)
+
+FROM   tabla1 AS t1
+       [INNER|LEFT|RIGHT JOIN tabla2 AS t2 ON condición_de_union]
+       [JOIN tabla3 AS t3 ON ...]
+
+WHERE  condición_fila                 -- filtros de filas (sin funciones de agregación)
+
+GROUP BY columna1, columna2, ...
+        -- agrupa filas con mismo valor de esas columnas
+
+HAVING condición_sobre_agregados      -- filtros de grupos (con SUM, COUNT...)
+
+ORDER BY columna_o_alias [ASC|DESC];  -- ordena el resultado final
+
+
+
+
+
 ## 🏗️ DDL (Data Definition Language)
 Lenguaje de definición: crea, modifica o elimina estructuras de base de datos.
 
@@ -170,6 +195,20 @@ Lenguaje de manipulación: gestiona los datos dentro de las tablas.
 ### DIFERENCIA ENTRE HAVING Y WHERE
 -> where -> lo usamos para limitar -> es una condicion sobre el select que NO PERMITE CONDICION CON FUNCION DE AGREGACION
 -> having -> lo usamos para limitar -> condicion sobre el GROUP BY con funcion de agregacion 
+
+
+
+| Estructura                | Uso principal                                   | Ejemplo corto                                              |
+| ------------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
+| **CASE**                  | Asignar valor según condición                   | `CASE WHEN ESTADO='OK' THEN 'Correcta' ELSE 'Errónea' END` |
+| **SUBCONSULTA en WHERE**  | Filtrar por resultado de otro SELECT            | `WHERE LEGAJO IN (SELECT LEGAJO FROM CUOTA_cn)`            |
+| **SUBCONSULTA en SELECT** | Calcular valor único por fila                   | `(SELECT SUM(...)) AS Total`                               |
+| **SUBCONSULTA en FROM**   | Usar resumen intermedio como tabla              | `FROM (SELECT ...) AS X`                                   |
+| **IF (teórico)**          | Lógica de bloque (en procedimientos o triggers) | `IF condición BEGIN ... END`                               |
+
+
+
+
 
 
 ### ⚙️ Triggers (Disparadores) en SQL

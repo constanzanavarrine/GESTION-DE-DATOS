@@ -2,24 +2,27 @@
 
 ## PLANTILLA DE SINTAXIS (orden de escritura)
 
-SELECT [DISTINCT] 
-       -- columnas o expresiones a mostrar
-       -- funciones de agregación si corresponde (SUM, COUNT, AVG, MIN, MAX)
-       -- funciones de texto o fecha (LEFT, DATENAME, YEAR, etc.)
-       -- columnas calculadas (CASE ... END)
+SELECT [DISTINCT]       
+       -- columnas o expresiones a mostrar      
+       -- funciones de agregación si corresponde (SUM, COUNT, AVG, MIN, MAX)        
+       -- funciones de texto o fecha (LEFT, DATENAME, YEAR, etc.)     
+       -- columnas calculadas (CASE ... END)      
 
-FROM   tabla1 AS t1
-       [INNER|LEFT|RIGHT JOIN tabla2 AS t2 ON condición_de_union]
+FROM   tabla1 AS t1   
+       [INNER|LEFT|RIGHT JOIN tabla2 AS t2 ON condición_de_union]   
        [JOIN tabla3 AS t3 ON ...]
 
-WHERE  condición_fila                 -- filtros de filas (sin funciones de agregación)
+WHERE  condición_fila                    
+        -- filtros de filas (sin funciones de agregación)   
 
-GROUP BY columna1, columna2, ...
-        -- agrupa filas con mismo valor de esas columnas
+GROUP BY columna1, columna2, ...    
+        -- agrupa filas con mismo valor de esas columnas       
 
-HAVING condición_sobre_agregados      -- filtros de grupos (con SUM, COUNT...)
+HAVING condición_sobre_agregados              
+        -- filtros de grupos (con SUM, COUNT...)      
 
-ORDER BY columna_o_alias [ASC|DESC];  -- ordena el resultado final
+ORDER BY columna_o_alias [ASC|DESC];     
+        -- ordena el resultado final    
 
 
 

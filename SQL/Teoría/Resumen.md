@@ -259,7 +259,7 @@ Se usan para automatizar tareas, mantener integridad de datos o registrar audito
   -> Ante una falla dejo la base de datos tal y como estaba antes 
   -> Lo que le decimos: volve para atras desde el momento que hice el begin transaction 
 
-
+![alt text](image-1.png)
 
 ## UNIONES
 - Union -> no permite registros duplicados -> unificar dos consultas -> pone una abajo de la otra 

@@ -11,8 +11,8 @@ CREATE TABLE NombreTabla (
 
 -- 2) Agregar nuevas columnas a una tabla existente
 ALTER TABLE NombreTablaExistente
-ADD COLUMN NombreColumnaNueva1 TipoDeDato [NULL | NOT NULL],
-ADD COLUMN NombreColumnaNueva2 TipoDeDato [NULL | NOT NULL];
+ADD NombreColumnaNueva1 TipoDeDato [NULL | NOT NULL],
+ADD NombreColumnaNueva2 TipoDeDato [NULL | NOT NULL];
 
 -- 3) Agregar restricciones (constraints)
 ALTER TABLE NombreTablaExistente

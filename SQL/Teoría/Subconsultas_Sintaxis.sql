@@ -1,4 +1,4 @@
-SUBCONSULTAS -> consulta dentro de otra
+SUBCONSULTAS    -> consulta dentro de otra
                 -> no siempre devuelve un valor pues puede devolver un listado de valores
                 -> la subconsulta debe devolver una sola columna (no se permiten múltiples columnas en el SELECT de la subconsulta en la cláusula WHERE)
 

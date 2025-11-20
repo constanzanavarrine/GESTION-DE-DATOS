@@ -110,13 +110,6 @@ exec @salidaSP = xxxx(10.5, 20.5, @elerror out, @fecha out)
 --- por default el stored procedure me devuelve un int 
 --- en return del stored procedure unicamente un valor numerico 
 
-
-
-
-
-
-
-
 --- trae los tres primeros clientes de la interrupcion que mas duro 
 --- el dateiff me dice el tiempo de duracion
 --- order by 2 -> indica que el resultado se ordena por la segunda expresion del SELECT 

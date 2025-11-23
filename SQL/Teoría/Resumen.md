@@ -196,8 +196,8 @@ Lenguaje de manipulación: gestiona los datos dentro de las tablas.
 
 
 ### DIFERENCIA ENTRE HAVING Y WHERE
--> where -> lo usamos para limitar -> es una condicion sobre el select que NO PERMITE CONDICION CON FUNCION DE AGREGACION
--> having -> lo usamos para limitar -> condicion sobre el GROUP BY con funcion de agregacion 
+→ where → lo usamos para limitar → es una condicion sobre el select que NO PERMITE CONDICION CON FUNCION DE AGREGACION   
+→ having → lo usamos para limitar → condicion sobre el GROUP BY con funcion de agregacion 
 
 
 

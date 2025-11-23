@@ -52,3 +52,5 @@ go
 -- En este ejemplo, se agrega una restricción de valor predeterminado 'Activo' a la columna Estado
 -- de la tabla Clientes. Luego, se actualiza el registro con ClienteId 42 para que su columna Estado
 -- tome el valor predeterminado 'Activo'.
+
+

@@ -19,6 +19,11 @@ SET {columna = expresion | DEFAULT | NULL} {, columna = expresion | DEFAULT | NU
 -> condicion es una expresion que filtra los registros que se van a actualizar.
 
 
+UPDATE NombreDeTabla
+SET columna1 = valor1,
+    columna2 = valor2
+WHERE condicion;
+
 
 ------------------------------------------------------------------------------
 
